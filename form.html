@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Same Navigation as index.html -->
+    </header>
+
+    <section id="form">
+        <h1>Book Your Trip</h1>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date"><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <label for="destination">Choose Destination:</label>
+            <select id="destination" name="destination">
+                <option value="paris">Paris</option>
+                <option value="new_york">New York</option>
+                <option value="tokyo">Tokyo</option>
+            </select><br>
+
+            <label>Additional Services:</label><br>
+            <input type="checkbox" id="flight" name="services" value="flight">
+            <label for="flight">Flight Booking</label><br>
+            <input type="checkbox" id="hotel" name="services" value="hotel">
+            <label for="hotel">Hotel Reservation</label><br>
+
+            <label for="file">Upload Document:</label>
+            <input type="file" id="file" name="file"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Explorer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
